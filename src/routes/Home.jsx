@@ -12,6 +12,7 @@ import nonTech1 from "/KEYS TO FORTUNE.png";
 import nonTech2 from "/MISSION CAMPUS.png";
 import nonTech3 from "/MELODIA.png";
 import nonTech4 from "/RANPO'S OBSERVATORY.png";
+import logo from "/logo.png"; // Add your EIE logo here
 
 const Home = () => {
   const navigate = useNavigate();
@@ -71,7 +72,6 @@ const Home = () => {
         <h2>REGISTRATION OPENED!</h2>
         <h3>NO ON SPOT REGISTRATION</h3>
 
-        {/* Register Now button */}
         <button 
           className="btn btn-success btn-lg mt-3"
           onClick={() => navigate("/payment")}
@@ -155,7 +155,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Payment Rules (moved below Workshop) */}
+      {/* Payment Rules */}
       <section className="py-5 container">
         <h1 className="text-center mb-4">PAYMENT RULES</h1>
         <div style={{ fontSize: "1.5rem", lineHeight: "1.8", textAlign: "justify" }}>
@@ -185,28 +185,32 @@ const Home = () => {
         </div>
       </section>
 
-      {/* EIE Association Description */}
-      <section className="py-5 text-center container">
-        <h1 className="mb-4">EIE ASSOCIATION</h1>
-        <h4 style={{ fontSize: "1.5rem", lineHeight: "1.8", textAlign: "justify" }}>
-          The Electronics and Instrumentation Association, established in 2002, plays a pivotal role in enhancing student skills and knowledge in the field. 
-          Through various activities such as workshops, seminars, and technical competitions, it bridges the gap between classroom theory and industry practice. 
-          The association fosters innovation by providing hands-on training in emerging technologies. Regular industrial visits, expert talks, and career guidance programs equip students with practical insights and professional connections. 
-          By cultivating both technical expertise and leadership skills, the association ensures holistic development and prepares students for successful careers in the industry.
-        </h4>
+      {/* EIE Association */}
+      <section className="py-5 container">
+        <h1 className="text-center mb-5">EIE ASSOCIATION</h1>
+        <div className="row align-items-center">
+          {/* Logo LHS */}
+          <div className="col-md-4 text-center mb-4 mb-md-0">
+            <img src={logo} alt="EIE Association Logo" className="img-fluid" style={{ maxWidth: "280px" }} />
+          </div>
+          {/* Description RHS */}
+          <div className="col-md-8">
+            <p style={{ fontSize: "1.5rem", lineHeight: "1.8", textAlign: "justify" }}>
+              The Electronics and Instrumentation Association, established in 2002, plays a pivotal role in enhancing student skills and knowledge in the field. 
+              Through various activities such as workshops, seminars, and technical competitions, it bridges the gap between classroom theory and industry practice. 
+              The association fosters innovation by providing hands-on training in emerging technologies. Regular industrial visits, expert talks, and career guidance programs equip students with practical insights and professional connections. 
+              By cultivating both technical expertise and leadership skills, the association ensures holistic development and prepares students for successful careers in the industry.
+            </p>
+            <h4 className="mt-4">HEAD OF THE DEPARTMENT</h4>
+            <p>Dr.S.J.SUJIPRASAD</p>
+            <h4 className="mt-3">FACULTY COORDINATORS</h4>
+            <p>Ms.M.LIZZY NESA BAGYAM</p>
+          </div>
+        </div>
 
-        <h4 className="mt-4">HEAD OF THE DEPARTMENT</h4>
-        <p>Dr.S.J.SUJIPRASAD</p>
-
-        <h4 className="mt-3">FACULTY COORDINATORS</h4>
-        <p>Ms.M.LIZZY NESA BAGYAM</p>
-
-        <h4 className="mt-3">FACULTY COORDINATORS</h4>
-        <p>Ms.M.LIZZY NESA BAGYAM</p>
-
-        {/* Buttons: Location, Contact, FAQ */}
-        <div className="mt-4 d-flex justify-content-center gap-3 flex-wrap">
-          <button className="btn btn-outline-light btn-lg" onClick={() => navigate("/contact")}>📍 Location</button>
+        {/* Buttons */}
+        <div className="mt-5 d-flex justify-content-center gap-3 flex-wrap">
+          <button className="btn btn-outline-light btn-lg" onClick={() => navigate("/location")}>📍 Location</button>
           <button className="btn btn-outline-light btn-lg" onClick={() => navigate("/contact")}>📞 Contact</button>
           <button className="btn btn-outline-light btn-lg" onClick={() => navigate("/faq")}>❓ FAQ</button>
         </div>
