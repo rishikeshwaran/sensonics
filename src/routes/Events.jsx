@@ -1,15 +1,29 @@
 // src/pages/Events.jsx
-import React from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Events() {
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    AOS.init({ duration: 1200, once: true });
+
+    const handleScroll = () => setShowScroll(window.scrollY > 300);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
   const events = [
     // ------------------- TECHNICAL EVENTS -------------------
     {
       category: "Technical",
-      title: "INSIGHT SCRIBE [ PAPER PRESENTATION ]",
+      title: "PAPERLOGUE [ PAPER PRESENTATION ]",
       date: "25/10/2024",
       image: "/PAPER.png",
-      registerLink: "https://forms.gle/your-google-form-link-1",
+      registerLink: "https://forms.gle/2pTsFNExnD5UAVjj9",
       contactLink: "/contact",
       instructions: [
         "PPT format from any domain is permitted to present.",
@@ -28,10 +42,10 @@ export default function Events() {
     },
     {
       category: "Technical",
-      title: "TECH VENTURE [ PRODUCT DESIGN & PROTOTYPE SHOWCASE ]",
+      title: "CREATION UNLEASHED [ PROJECT PRESENATION ]",
       date: "26/10/2024",
       image: "/PROJECT.png",
-      registerLink: "https://forms.gle/your-google-form-link-2",
+      registerLink: "https://forms.gle/tiPZZ6UnR7oKPkuT7",
       contactLink: "/contact",
       instructions: [
         "Open to students from all engineering domains.",
@@ -50,10 +64,10 @@ export default function Events() {
     },
     {
       category: "Technical",
-      title: "CODE WARS [ COMPETITIVE PROGRAMMING CHALLENGE ]",
+      title: "CODE DEBUG CONSOLE [ PROGRAMMING CHALLENGE ]",
       date: "27/10/2024",
       image: "/CODING.png",
-      registerLink: "https://forms.gle/your-google-form-link-3",
+      registerLink: "https://forms.gle/MqMoTejamaGRREdr8",
       contactLink: "/contact",
       instructions: [
         "Individual participation only.",
@@ -72,10 +86,10 @@ export default function Events() {
     },
     {
       category: "Technical",
-      title: "INNOVATORS RALLY [ RAPID PROTOTYPING & ENTREPRENEURSHIP ]",
+      title: "BUG2BOARD [ CIRCUIT DEBUGGING ]",
       date: "28/10/2024",
       image: "/CIRCUIT.png",
-      registerLink: "https://forms.gle/your-google-form-link-4",
+      registerLink: "https://forms.gle/xZ7a4kmXfQaVzJTg7",
       contactLink: "/contact",
       instructions: [
         "Team size: 3-5 members.",
@@ -96,10 +110,10 @@ export default function Events() {
     // ------------------- NON-TECHNICAL EVENTS -------------------
     {
       category: "Non-Technical",
-      title: "IPL BRAWL [ FUN CRICKET QUIZ & MINI GAMES ]",
+      title: "KEYS TO FORTUNE [ FUN CRICKET QUIZ & MINI GAMES ]",
       date: "26/10/2024",
       image: "/KEYS TO FORTUNE.png",
-      registerLink: "https://forms.gle/your-google-form-link-5",
+      registerLink: "https://forms.gle/3FcfBzdLLQij2fmSA",
       contactLink: "/contact",
       instructions: [
         "Team size: 2 members.",
@@ -118,10 +132,10 @@ export default function Events() {
     },
     {
       category: "Non-Technical",
-      title: "EXPLORE-X [ GENERAL AWARENESS & SCIENCE EXPLORATION ]",
+      title: "MISSION : CAMPUS [ CAMPUS VOYAGE ]",
       date: "27/10/2024",
       image: "/MISSION CAMPUS.png",
-      registerLink: "https://forms.gle/your-google-form-link-6",
+      registerLink: "https://forms.gle/ZKKAZAqGr6XvkWQ17",
       contactLink: "/contact",
       instructions: [
         "Individual or team of 2 can participate.",
@@ -140,10 +154,10 @@ export default function Events() {
     },
     {
       category: "Non-Technical",
-      title: "TRUE DETECTIVE [ CRIME SCENE & LOGIC PUZZLE ]",
+      title: "RHYTHM RIDDLE [ MELODIA]",
       date: "28/10/2024",
-      image: "/RANPO'S OBSERVATORY.png",
-      registerLink: "https://forms.gle/your-google-form-link-7",
+      image: "/MELODIA.png",
+      registerLink: "https://forms.gle/5g1jwNMRVXU53S6m7",
       contactLink: "/contact",
       instructions: [
         "Team size: 3 members.",
@@ -162,10 +176,10 @@ export default function Events() {
     },
     {
       category: "Non-Technical",
-      title: "LENSATION [ PHOTOGRAPHY & VISUAL STORY ]",
+      title: "RANPO'S OBSERVATORY [ SHERLOCK SENSE ]",
       date: "29/10/2024",
-      image: "/MELODIA.png",
-      registerLink: "https://forms.gle/your-google-form-link-8",
+      image: "/RANPO'S OBSERVATORY.png",
+      registerLink: "https://forms.gle/eW66RVqS414QTvmF9",
       contactLink: "/contact",
       instructions: [
         "Individual participation.",
@@ -186,10 +200,10 @@ export default function Events() {
     // ------------------- WORKSHOP -------------------
     {
       category: "Workshop",
-      title: "AI & IoT WORKSHOP [ HANDS-ON SESSION ]",
+      title: "FACTORY I/O WORKSHOP [ HANDS-ON SESSION ]",
       date: "30/10/2024",
       image: "/WORKSHOP.png",
-      registerLink: "https://forms.gle/your-google-form-link-9",
+      registerLink: "https://forms.gle/99a7LuVyAnUd8JZA6",
       contactLink: "/contact",
       instructions: [
         "Open for all departments.",
@@ -211,76 +225,91 @@ export default function Events() {
   const sectionStyle = {
     minHeight: "100vh",
     position: "relative",
-    backgroundImage: 'url("semi.jpg")', // background image
+    backgroundImage: 'url("semi.jpg")',
     backgroundSize: "cover",
     backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
     padding: "3rem 2rem",
-    color: "white",
-     fontFamily: "'Times New Roman', Times, serif",
+    fontFamily: "'Times New Roman', Times, serif",
+    color: "#000",
+    
   };
 
-  const overlayStyle = {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    backgroundColor: "rgba(0,0,0,0.5)", // semi-transparent
-    zIndex: 0,
-  };
-
-  const contentWrapper = {
-    position: "relative",
-    zIndex: 1,
-  };
-
+  const contentWrapper = { position: "relative", zIndex: 1 };
   const eventCardStyle = {
-    backgroundColor: "rgba(255,255,255,0.1)",
+    backgroundColor: "rgba(255,255,255,0.3)",
     padding: "1.5rem",
-    borderRadius: "10px",
+    borderRadius: "15px",
+    boxShadow: "0 8px 20px rgba(0,0,0,0.3)",
+    transition: "transform 0.4s ease, box-shadow 0.4s ease",
+    marginBottom: "3rem",
   };
-
   const titleStyle = {
-    fontSize: "1.8rem", // slightly larger
+    fontSize: "1.8rem",
     fontWeight: "bold",
-    fontFamily: "'Times New Roman', Times, serif",
+    textShadow: "1px 1px 3px rgba(0,0,0,0.2)",
+    
+  };
+  const dateStyle = { fontSize: "1.2rem", fontWeight: "bold" };
+  const textStyle = { fontSize: "1.1rem" };
+
+  const stickyStyle = {
+    position: "sticky",
+    top: "0",
+   background: "linear-gradient(90deg, #b1ff8dff, #fffffeff)",
+    padding: "0.8rem 1rem",
+    fontWeight: "bold",
+    fontSize: "2rem",
+    zIndex: 10,
+    marginBottom: "1rem",
+    color: "#000",
+    boxShadow: "0 4px 6px rgba(0,0,0,0.2)",
+    textAlign: "center",
   };
 
-  const dateStyle = {
-    fontSize: "1.2rem",
-    fontWeight: "bold",
-    color: "#ffffff",
-    fontFamily: "'Times New Roman', Times, serif",
-  };
-
-  const textStyle = {
-    fontSize: "1.1rem", // slightly larger
-    fontFamily: "'Times New Roman', Times, serif",
-    color: "#ffffff",
+  const scrollButtonStyle = {
+    position: "fixed",
+    right: "2rem",
+    bottom: "2rem",
+    backgroundColor: "#000",
+    color: "#fff",
+    border: "none",
+    padding: "1rem 1.2rem",
+    borderRadius: "50%",
+    cursor: "pointer",
+    fontSize: "1.5rem",
+    boxShadow: "0 6px 10px rgba(0,0,0,0.4)",
+    opacity: showScroll ? 1 : 0,
+    pointerEvents: showScroll ? "auto" : "none",
+    transition: "all 0.3s ease",
+    zIndex: 1000,
+    animation: "pulse 2s infinite",
   };
 
   return (
     <section style={sectionStyle}>
-      <div style={overlayStyle}></div>
       <div style={contentWrapper} className="container py-5">
         {["Technical", "Non-Technical", "Workshop"].map((cat) => (
-          <div key={cat} className="mb-5">
-            <h2
-              className="text-center mb-4"
-              style={{ fontSize: "2rem", fontFamily: "'Times New Roman', Times, serif" }}
-            >
-              {cat} Events
-            </h2>
+          <div key={cat} data-aos="fade-up">
+            <h2 style={stickyStyle}>{cat} Events</h2>
 
             {events
               .filter((e) => e.category === cat)
               .map((event, index) => (
-                <div key={index} className="mb-5" style={eventCardStyle}>
-                  <h3 className="text-center mb-2" style={titleStyle}>
+                <div
+                  key={index}
+                  style={eventCardStyle}
+                  data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+                  onMouseEnter={(e) =>
+                    (e.currentTarget.style.transform = "scale(1.05)")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.currentTarget.style.transform = "scale(1)")
+                  }
+                >
+                  <h3 style={titleStyle} className="text-center mb-2">
                     {event.title}
                   </h3>
-                  <p className="text-center mb-4" style={dateStyle}>
+                  <p style={dateStyle} className="text-center mb-4">
                     Date: {event.date}
                   </p>
 
@@ -290,26 +319,28 @@ export default function Events() {
                         src={event.image}
                         alt={event.title}
                         className="img-fluid rounded shadow"
+                        style={{ transition: "transform 0.4s ease" }}
+                        onMouseEnter={(e) =>
+                          (e.currentTarget.style.transform = "scale(1.08)")
+                        }
+                        onMouseLeave={(e) =>
+                          (e.currentTarget.style.transform = "scale(1)")
+                        }
                       />
                     </div>
 
                     <div className="col-md-8">
                       <div className="row">
                         <div className="col-md-6 mb-3">
-                          <h5 style={{ fontSize: "1.2rem", fontFamily: "'Times New Roman', Times, serif" }}>
-                            INSTRUCTIONS:
-                          </h5>
+                          <h5 style={{ fontSize: "1.2rem" }}>INSTRUCTIONS:</h5>
                           <ul style={textStyle}>
                             {event.instructions.map((item, idx) => (
                               <li key={idx}>{item}</li>
                             ))}
                           </ul>
                         </div>
-
                         <div className="col-md-6 mb-3">
-                          <h5 style={{ fontSize: "1.2rem", fontFamily: "'Times New Roman', Times, serif" }}>
-                            FORMAT:
-                          </h5>
+                          <h5 style={{ fontSize: "1.2rem" }}>FORMAT:</h5>
                           <ul style={textStyle}>
                             {event.format.map((item, idx) => (
                               <li key={idx}>{item}</li>
@@ -321,33 +352,85 @@ export default function Events() {
                   </div>
 
                   <div className="text-center mt-3">
-                    <a
-                      href={event.registerLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-primary me-3"
-                      style={{ fontFamily: "'Times New Roman', Times, serif", fontSize: "1rem" }}
-                    >
-                      Register Now
-                    </a>
-                    <a
-                      href={event.contactLink}
-                      className="btn btn-outline-light"
-                      style={{ fontFamily: "'Times New Roman', Times, serif", fontSize: "1rem" }}
-                    >
-                      Contact Us
-                    </a>
-                  </div>
+  <a
+    href={event.registerLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn"
+    style={{
+      fontSize: "1.5rem",
+      transition: "all 0.3s ease",
+      backgroundColor: "#007bff", // Always blue
+      color: "#fff",
+      border: "none",
+      padding: "0.7rem 1.5rem",
+      borderRadius: "8px",
+      marginRight: "1rem",
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.backgroundColor = "orange"; // Hover color
+      e.currentTarget.style.color = "black";
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.backgroundColor = "#007bff"; // Original blue
+      e.currentTarget.style.color = "#fff";
+    }}
+  >
+    Register Now
+  </a>
 
-                  <hr
-                    className="my-5"
-                    style={{ borderColor: "rgba(255,255,255,0.3)" }}
-                  />
+  <a
+    href={event.contactLink}
+    className="btn"
+    style={{
+      fontSize: "1.5rem",
+      transition: "all 0.3s ease",
+      backgroundColor: "#28a745", // Always green
+      color: "#fff",
+      border: "none",
+      padding: "0.7rem 1.5rem",
+      borderRadius: "8px",
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.backgroundColor = "yellow"; // Hover color
+      e.currentTarget.style.color = "black";
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.backgroundColor = "#28a745"; // Original green
+      e.currentTarget.style.color = "#fff";
+    }}
+  >
+    Contact Us
+  </a>
+</div>
+
                 </div>
               ))}
           </div>
         ))}
       </div>
+
+      {/* Scroll-to-top button */}
+      <button
+        style={scrollButtonStyle}
+        onClick={scrollToTop}
+        onMouseEnter={(e) =>
+          (e.currentTarget.style.transform = "scale(1.2)")
+        }
+        onMouseLeave={(e) =>
+          (e.currentTarget.style.transform = "scale(1)")
+        }
+      >
+        ↑
+      </button>
+
+      <style>{`
+        @keyframes pulse {
+          0% { transform: scale(1); box-shadow: 0 6px 10px rgba(0,0,0,0.4); }
+          50% { transform: scale(1.1); box-shadow: 0 8px 15px rgba(0,0,0,0.6); }
+          100% { transform: scale(1); box-shadow: 0 6px 10px rgba(0,0,0,0.4); }
+        }
+      `}</style>
     </section>
   );
 }
