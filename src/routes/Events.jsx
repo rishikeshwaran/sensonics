@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 export default function Events() {
   const [showScroll, setShowScroll] = useState(false);
@@ -379,29 +380,30 @@ export default function Events() {
     Register Now
   </a>
 
-  <a
-    href={event.contactLink}
-    className="btn"
-    style={{
-      fontSize: "1.5rem",
-      transition: "all 0.3s ease",
-      backgroundColor: "#28a745", // Always green
-      color: "#fff",
-      border: "none",
-      padding: "0.7rem 1.5rem",
-      borderRadius: "8px",
-    }}
-    onMouseEnter={(e) => {
-      e.currentTarget.style.backgroundColor = "yellow"; // Hover color
-      e.currentTarget.style.color = "black";
-    }}
-    onMouseLeave={(e) => {
-      e.currentTarget.style.backgroundColor = "#28a745"; // Original green
-      e.currentTarget.style.color = "#fff";
-    }}
-  >
-    Contact Us
-  </a>
+  <Link
+  to={event.contactLink}
+  className="btn"
+  style={{
+    fontSize: "1.5rem",
+    transition: "all 0.3s ease",
+    backgroundColor: "#28a745",
+    color: "#fff",
+    border: "none",
+    padding: "0.7rem 1.5rem",
+    borderRadius: "8px",
+  }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.backgroundColor = "yellow";
+    e.currentTarget.style.color = "black";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.backgroundColor = "#28a745";
+    e.currentTarget.style.color = "#fff";
+  }}
+>
+  Contact Us
+</Link>
+
 </div>
 
                 </div>

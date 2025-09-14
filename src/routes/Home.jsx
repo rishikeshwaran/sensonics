@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import bannerImg from "/SENSONICS1.png";
-import eventPoster from "/SENSONICS.png";
+import eventPoster from "/SENSONICS POSTER.png";
 import tech1 from "/PAPER.png";
 import tech2 from "/PROJECT.png";
 import tech3 from "/CODING.png";
@@ -173,7 +173,7 @@ const Home = () => {
                       
                     </div>
                     <div className="flip-card-back">
-                      <h3 className="text-title">{event.title}</h3>
+                      
                       <p className="text-body1">{event.subtitle}</p>
                       <button className="btn-know" onClick={() => navigate(event.link)}>Know More</button>
                     </div>
@@ -197,8 +197,6 @@ const Home = () => {
 
               </div>
               <div className="flip-card-back">
-                <h3 className="text-title">Workshop Details</h3>
-                
                 <p className="text-body1"><strong>Fee:</strong> ₹300</p>
                 <p className="text-body1"><strong>Note:</strong> Cannot join other events</p>
                 <button className="btn-know" onClick={() => navigate("/events")}>Know More</button>

@@ -13,8 +13,6 @@ import Schedule from './routes/Schedule'
 import Gallery from './routes/Gallery'
 import Contact from './routes/Contact'
 import FAQ from './routes/FAQ'
-
-
 export default function App(){
 return (
 <div className="d-flex flex-column min-vh-100">
