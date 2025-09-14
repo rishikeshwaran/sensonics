@@ -162,7 +162,12 @@ export default function Gallery() {
         ))}
       </div>
 <div className="text-center mt-3">
-          <button className="btn-register" onClick={() => navigate("/department-video")}>🎥 Watch Department Video</button>
+          <button
+  className="btn-register"
+  onClick={() => window.open("https://drive.google.com/file/d/1jdJ7BOlm_rm3Qf3lpoVfjbY-UwXdomdK/view?usp=drive_link", "_blank")}
+>
+  🎥 Watch SENSONICS 2K24 Achievements
+</button>
         </div>
       {/* Scroll-to-top button */}
       {showScroll && (
