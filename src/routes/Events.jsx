@@ -22,14 +22,14 @@ export default function Events() {
     {
       category: "Technical",
       title: "PAPERLOGUE [ PAPER PRESENTATION ]",
-      date: "25/10/2024",
+      date: "09/10/2025",
       image: "/PAPER.png",
       registerLink: "https://forms.gle/2pTsFNExnD5UAVjj9",
       contactLink: "/contact",
       instructions: [
         "PPT format from any domain is permitted to present.",
         "For a team maximum of three members are allowed to participate.",
-        "Anyone from a team (preferably team leader) is enough to register.",
+        "Everyone from a team want to register.",
         "Further information will be sent through the registered mail or WhatsApp.",
         "Free lunch and refreshment will be provided for all the participants."
       ],
@@ -44,51 +44,53 @@ export default function Events() {
     {
       category: "Technical",
       title: "CREATION UNLEASHED [ PROJECT PRESENATION ]",
-      date: "26/10/2024",
+      date: "09/10/2025",
       image: "/PROJECT.png",
       registerLink: "https://forms.gle/tiPZZ6UnR7oKPkuT7",
       contactLink: "/contact",
       instructions: [
-        "Open to students from all engineering domains.",
-        "Team size: Maximum of 4 members.",
-        "One member should register on behalf of the team.",
-        "Prototype can be physical or digital.",
-        "Refreshments will be provided."
-      ],
-      format: [
-        "Presentation should contain max 10 slides.",
-        "Each team gets 10 minutes (7 min presentation + 3 min Q/A).",
-        "Working prototype/demo is mandatory.",
-        "Judges will evaluate based on innovation & feasibility.",
-        "Certificates for participants and winners."
-      ]
+  "Team size: Minimum 2 and Maximum 3 members.",
+  "Projects can be presented from any domain.",
+  "Abstract must be submitted in the G-Form itself.",
+  "Attach proof of concept (photo or video) in the PPT.",
+  "After registration, team leaders must join the WhatsApp group (link in G-Form).",
+  "Free lunch and refreshments will be provided for all participants."
+],
+format: [
+  "Each team gets 7 minutes (5 min presentation + 2 min Q/A).",
+  "Proof of concept can be shown in photo or video mode.",
+  "Prototype is mandatory for selection.",
+  "Certificates will be given to all participants.",
+  "Exciting cash prizes for the winners."
+]
     },
     {
       category: "Technical",
       title: "CODE DEBUG CONSOLE [ PROGRAMMING CHALLENGE ]",
-      date: "27/10/2024",
+      date: "09/10/2025",
       image: "/CODING.png",
       registerLink: "https://forms.gle/MqMoTejamaGRREdr8",
       contactLink: "/contact",
       instructions: [
-        "Individual participation only.",
-        "Participants must bring their own laptop.",
-        "Internet access will be provided.",
-        "Problems will cover algorithms & data structures.",
-        "Refreshments included."
-      ],
-      format: [
-        "Contest duration: 2 hours.",
-        "Platform: HackerRank/Codeforces like environment.",
-        "Languages allowed: C, C++, Java, Python.",
-        "Top scorers will be selected as winners.",
-        "Certificates for all participants."
-      ]
+  "Each team must have 3 members: Coder, Debugger, Algorithm Designer.",
+  "No discussion allowed until a member finishes their task.",
+  "Finished members may assist teammates still working.",
+  "Use only laptops, IDEs, pen & paper (no phones/internet).",
+  "Teams must bring at least one laptop with charger."
+],
+format: [
+  "Coder: Implement full program for given problem.",
+  "Debugger: Identify and fix errors in faulty code.",
+  "Algorithm Designer: Write pseudo-code/algorithm on paper.",
+  "Evaluation based on correctness, efficiency, clarity, teamwork.",
+  "Final submission includes outputs from all three roles."
+]
+
     },
     {
       category: "Technical",
-      title: "BUG2BOARD [ CIRCUIT DEBUGGING ]",
-      date: "28/10/2024",
+      title: "LINE FOLLOWER [ ROBO RACE ]",
+      date: "09/10/2025",
       image: "/CIRCUIT.png",
       registerLink: "https://forms.gle/xZ7a4kmXfQaVzJTg7",
       contactLink: "/contact",
@@ -109,9 +111,57 @@ export default function Events() {
     },
 
     // ------------------- NON-TECHNICAL EVENTS -------------------
+    
     {
       category: "Non-Technical",
-      title: "KEYS TO FORTUNE [ FUN CRICKET QUIZ & MINI GAMES ]",
+      title: "MISSION : CAMPUS [ CAMPUS VOYAGE ]",
+      date: "09/10/2025",
+      image: "/MISSION CAMPUS.png",
+      registerLink: "https://forms.gle/ZKKAZAqGr6XvkWQ17",
+      contactLink: "/contact",
+      instructions: [
+  "Teams of 2–3 members can participate.",
+  "A video will be shown; questions will follow based on its content.",
+  "Answers must be given within the time limit.",
+  "Each correct answer earns points; highest score wins (tie → rapid fire).",
+  "No mobiles or books allowed; follow organizer instructions."
+],
+      format: [
+  "Event consists of a single video-based quiz round.",
+  "Questions will be asked immediately after the video.",
+  "Time limit will be strictly followed for each question.",
+  "Scoring based on number of correct answers.",
+  "Rapid fire round will decide the winner in case of a tie."
+]
+    },
+    
+    {
+      category: "Non-Technical",
+      title: "RANPO'S OBSERVATORY [ SHERLOCK SENSE ]",
+      date: "09/10/2025",
+      image: "/RANPO'S OBSERVATORY.png",
+      registerLink: "https://forms.gle/eW66RVqS414QTvmF9",
+      contactLink: "/contact",
+      
+      instructions: [
+  "Round 1: Observe the image carefully within the time limit and answer the related questions.",
+  "Round 2: Analyze the given crime case file and identify the culprit.",
+  "Extra Task: Complete a fun task to unlock additional clues if required.",
+  "Round 3 (if needed): Play a quick logic game in case of multiple qualifiers.",
+  "Team with the highest overall score will be declared as the winner."
+],
+      format: [
+  "Complete tasks within the time limit.",
+  "No external help allowed.",
+  "Certificates for all participants.",
+  "Scoring based on accuracy and speed.",
+  "Judge’s decision will be final."
+]
+
+    },
+{
+      category: "Non-Technical",
+      title: "KEYS TO FORTUNE [ TRESURE TIME ]",
       date: "26/10/2024",
       image: "/KEYS TO FORTUNE.png",
       registerLink: "https://forms.gle/3FcfBzdLLQij2fmSA",
@@ -133,93 +183,50 @@ export default function Events() {
     },
     {
       category: "Non-Technical",
-      title: "MISSION : CAMPUS [ CAMPUS VOYAGE ]",
-      date: "27/10/2024",
-      image: "/MISSION CAMPUS.png",
-      registerLink: "https://forms.gle/ZKKAZAqGr6XvkWQ17",
-      contactLink: "/contact",
-      instructions: [
-        "Individual or team of 2 can participate.",
-        "Quiz covers science, tech, and current affairs.",
-        "Only one registration required per team.",
-        "Further updates via email/WhatsApp.",
-        "Snacks will be provided."
-      ],
-      format: [
-        "Preliminary round: Written quiz.",
-        "Final round: On-stage buzzer round.",
-        "Time limit: 30 seconds per question.",
-        "Negative marking applies in finals.",
-        "Certificates for all participants."
-      ]
-    },
-    {
-      category: "Non-Technical",
       title: "RHYTHM RIDDLE [ MELODIA]",
-      date: "28/10/2024",
+      date: "09/10/2025",
       image: "/MELODIA.png",
       registerLink: "https://forms.gle/5g1jwNMRVXU53S6m7",
       contactLink: "/contact",
       instructions: [
-        "Team size: 3 members.",
-        "Crime scene puzzles will be given.",
-        "Logical reasoning skills required.",
-        "One member should register for the team.",
-        "Snacks provided."
-      ],
-      format: [
-        "Round 1: Logic quiz.",
-        "Round 2: Crime scene investigation.",
-        "Round 3: Mystery-solving challenge.",
-        "Time bound problem solving.",
-        "Certificates for all participants."
-      ]
-    },
-    {
-      category: "Non-Technical",
-      title: "RANPO'S OBSERVATORY [ SHERLOCK SENSE ]",
-      date: "29/10/2024",
-      image: "/RANPO'S OBSERVATORY.png",
-      registerLink: "https://forms.gle/eW66RVqS414QTvmF9",
-      contactLink: "/contact",
-      instructions: [
-        "Individual participation.",
-        "Theme will be given on the spot.",
-        "Participants must bring their own camera/phone.",
-        "Editing is allowed with restrictions.",
-        "Snacks will be provided."
-      ],
-      format: [
-        "Round 1: Best shot submission.",
-        "Round 2: Short visual story presentation.",
-        "Time allotted: 2 hours total.",
-        "Judging: Creativity, composition, story.",
-        "Certificates for all participants."
-      ]
-    },
+  "Each team must have 3 participants.",
+  "Teams must register with a unique team name before the event.",
+  "Event consists of 2 rounds: Picture to Movie & Missing Lyrics.",
+  "Scoring will be cumulative across both rounds.",
+  "Judge’s decision will be final and binding."
+],
+format: [
+  "Round 1: Identify the movie details from movie scenes.",
+  "Round 2: Fill in the missing lyrics when displayed/played.",
+  "Top teams from Round 1 qualify for Round 2.",
+  "Points awarded for each correct answer.",
+  "Team with highest score will be the winner."
+]
 
+    },
     // ------------------- WORKSHOP -------------------
     {
       category: "Workshop",
       title: "FACTORY I/O WORKSHOP [ HANDS-ON SESSION ]",
-      date: "30/10/2024",
+      date: "09/10/2025",
       image: "/WORKSHOP.png",
       registerLink: "https://forms.gle/99a7LuVyAnUd8JZA6",
       contactLink: "/contact",
-      instructions: [
-        "Open for all departments.",
-        "Individual registration required.",
-        "Hands-on training will be provided.",
-        "Workshop materials will be shared.",
-        "Lunch and refreshments included."
-      ],
-      format: [
-        "Session 1: Basics of AI & IoT.",
-        "Session 2: Hands-on IoT device setup.",
-        "Session 3: AI model integration.",
-        "Q/A session with experts.",
-        "Certificates for all participants."
-      ]
+     instructions: [
+  "All participants must be present by 9:00 AM sharp.",
+  "Registered participants must attend the workshop for the full duration.",
+  "Participants should not take part in any other events during the workshop.",
+  "Full-day attendance is mandatory to receive the participation certificate.",
+  "Participants leaving midway will not be eligible for the certificate."
+],
+format: [
+  "Workshop timing: 9:00 AM to 3:30 PM.",
+  "Attendance will be monitored throughout the session.",
+  "Certificates only for participants with full attendance.",
+  "Lunch and refreshments will be provided during the workshop.",
+  "Sessions will include interactive discussions and activities."
+]
+
     }
   ];
 
@@ -341,7 +348,7 @@ export default function Events() {
                           </ul>
                         </div>
                         <div className="col-md-6 mb-3">
-                          <h5 style={{ fontSize: "1.2rem" }}>FORMAT:</h5>
+                          <h5 style={{ fontSize: "1.2rem" }}>RULES:</h5>
                           <ul style={textStyle}>
                             {event.format.map((item, idx) => (
                               <li key={idx}>{item}</li>

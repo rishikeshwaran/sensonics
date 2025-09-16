@@ -68,6 +68,8 @@ export default function Schedule() {
         <h2 style={headingStyle}>EVENT SCHEDULE</h2>
 
         <div>
+          <div style={eventStyle}>VENUE : MAHARAJA AUDITORIUM</div>
+
           <div style={timeStyle}>09:00 AM</div>
           <div style={eventStyle}>INAUGURATION</div>
 
@@ -78,32 +80,32 @@ export default function Schedule() {
 
           <div style={timeStyle}>10:30 AM</div>
           <div style={eventStyle}>
-            INSIGHT SCRIBE & FACTORY I/O: Paper Presentation, Workshop
+            PAPER LOGUE & FACTORY I/O: Paper Presentation, Workshop
           </div>
 
           <div style={timeStyle}>10:30 AM</div>
-          <div style={eventStyle}>TECH VENTURE: Project Presentation</div>
+          <div style={eventStyle}>CREATION UNLEASHED: Project Presentation</div>
 
           <div style={timeStyle}>10:45 AM</div>
-          <div style={eventStyle}>CODE WARS: Coding Contest</div>
+          <div style={eventStyle}>CODE DEBUG CONSOLE: Programming Challenge</div>
 
           <div style={timeStyle}>10:45 AM</div>
-          <div style={eventStyle}>INNOVATORS RALLY: Ideathon</div>
+          <div style={eventStyle}>LINE FOLLOWER: Robo Race</div>
 
           <div style={timeStyle}>12:15 PM - 01:15 PM</div>
           <div style={eventStyle}>LUNCH BREAK</div>
 
           <div style={timeStyle}>01:15 PM</div>
-          <div style={eventStyle}>IPL BRAWL: IPL Auction</div>
+          <div style={eventStyle}>CAMPUS : MISSION: Campus Voyage</div>
 
-          <div style={timeStyle}>01:15 PM</div>
-          <div style={eventStyle}>EXPLORE - X: Campus Voyage</div>
+          <div style={timeStyle}>2:00 PM</div>
+          <div style={eventStyle}>RANPO'S OBSERVATORY: Sherlock Sense</div>
 
           <div style={timeStyle}>02:00 PM</div>
-          <div style={eventStyle}>TRUE DETECTIVE: Sherlock Sense</div>
+          <div style={eventStyle}>RHYTHM RIDDLE: Melodia</div>
 
           <div style={timeStyle}>02:45 PM</div>
-          <div style={eventStyle}>LENSATION: Photography</div>
+          <div style={eventStyle}>KEYS TO FORTUNE: TRESURE TIME</div>
 
           <div style={timeStyle}>03:45 PM</div>
           <div style={eventStyle}>VALEDICTORY FUNCTION</div>

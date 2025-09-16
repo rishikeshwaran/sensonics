@@ -44,8 +44,8 @@ export default function Navbar() {
             <img
               src="/logo.png"
               alt="Sensonics logo"
-              width="48"
-              height="48"
+              width="75"
+              height="75"
               className="me-2"
             />
             <div>
@@ -75,21 +75,36 @@ export default function Navbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="mainNav">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              {links.map((l) => (
-                <li key={l.to} className="nav-item">
-                  <NavLink
-                    to={l.to}
-                    className={({ isActive }) =>
-                      'nav-link' + (isActive ? ' active' : '')
-                    }
-                    end
-                    style={{ fontSize: '18px', color: 'white' }}
-                  >
-                    {l.label}
-                  </NavLink>
+ <ul className="navbar-nav mx-auto mb-2 mb-lg-0 mt-3">
+  {links.map((l) => (
+    <li key={l.to} className="nav-item">
+      <NavLink
+        to={l.to}
+        className={({ isActive }) =>
+          'nav-link' + (isActive ? ' active' : '')
+        }
+        end
+        style={{ fontSize: '18px', color: 'white' }}
+      >
+        {l.label}
+      </NavLink>
                 </li>
               ))}
+
+              {/* ✅ KEC logo after FAQ */}
+             {/* ✅ KEC logo after FAQ (Square) */}
+<li className="nav-item d-flex align-items-center ms-3">
+  <Link to="https://kongu.ac.in" target="_blank" rel="noopener noreferrer">
+    <img
+      src="/kec.png"
+      alt="KEC Logo"
+      width="75"
+      height="75"
+      style={{ objectFit: 'contain' }}
+    />
+  </Link>
+</li>
+
             </ul>
           </div>
         </div>

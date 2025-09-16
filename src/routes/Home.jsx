@@ -85,21 +85,22 @@ const Home = () => {
     { img: tech1, title: "PAPERLOGUE", subtitle: "[PAPER PRESENTATION]", link: "/events" },
     { img: tech2, title: "CREATION UNLEASHED", subtitle: "[PROJECT PRESENTATION]", link: "/events" },
     { img: tech3, title: "CODE DEBUG CONSOLE", subtitle: "[PROGRAMMING CHALLENGE]", link: "/events" },
-    { img: tech4, title: "BUG2BOARD", subtitle: "[CIRCUIT DEBUGGING]", link: "/events" },
+    { img: tech4, title: "LINE FOLLOWER", subtitle: "[ROBO RACE]", link: "/events" },
   ];
 
   const nonTechEvents = [
-    { img: nonTech1, title: "KEYS TO FORTUNE", subtitle: "[FUN CRICKET QUIZ]", link: "/events" },
     { img: nonTech2, title: "MISSION : CAMPUS", subtitle: "[CAMPUS VOYAGE]", link: "/events" },
-    { img: nonTech3, title: "RHYTHM RIDDLE", subtitle: "[MELODIA]", link: "/events" },
     { img: nonTech4, title: "RANPO'S OBSERVATORY", subtitle: "[SHERLOCK SENSE]", link: "/events" },
+    { img: nonTech1, title: "KEYS TO FORTUNE", subtitle: "[TRESURE TIME]", link: "/events" },
+    { img: nonTech3, title: "RHYTHM RIDDLE", subtitle: "[MELODIA]", link: "/events" },
+    
   ];
 
   return (
     <div style={{ fontFamily: "'Times New Roman', Times, serif", color: "black", background: 'url("/semi.jpg")', backgroundSize: "cover", backgroundPosition: "center", minHeight: "100vh" }}>
       
       <nav className="sticky-nav">
-        <h3 className="text-title">EIE Symposium - Sensonics 2K25</h3>
+        <h3 className="text-title">Kongu Engineering College - Sensonics 2K25</h3>
       </nav>
 
       <section className="reveal fade-up">
@@ -209,7 +210,7 @@ const Home = () => {
   className="btn-register"
   onClick={() => window.open("https://drive.google.com/file/d/1jdJ7BOlm_rm3Qf3lpoVfjbY-UwXdomdK/view?usp=drive_link", "_blank")}
 >
-  🎥 Watch SENSONICS 2K24 Achievements
+  🎥 Watch SENSONICS 2K24 Achievements!!
 </button>
 
         </div>
