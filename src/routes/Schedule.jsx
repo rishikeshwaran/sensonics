@@ -98,16 +98,16 @@ export default function Schedule() {
           <div style={timeStyle}>01:15 PM</div>
           <div style={eventStyle}>CAMPUS : MISSION: Campus Voyage</div>
 
-          <div style={timeStyle}>2:00 PM</div>
+          <div style={timeStyle}>02:00 PM</div>
           <div style={eventStyle}>RANPO'S OBSERVATORY: Sherlock Sense</div>
 
-          <div style={timeStyle}>02:00 PM</div>
+          <div style={timeStyle}>02:45 PM</div>
           <div style={eventStyle}>RHYTHM RIDDLE: Melodia</div>
 
-          <div style={timeStyle}>02:45 PM</div>
-          <div style={eventStyle}>KEYS TO FORTUNE: TRESURE TIME</div>
+          <div style={timeStyle}>03:30 PM</div>
+          <div style={eventStyle}>KEYS TO FORTUNE: Tresure Time</div>
 
-          <div style={timeStyle}>03:45 PM</div>
+          <div style={timeStyle}>04:00 PM</div>
           <div style={eventStyle}>VALEDICTORY FUNCTION</div>
 
           <div style={timeStyle}>04:30 PM</div>
