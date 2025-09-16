@@ -174,6 +174,25 @@ const Contact = () => {
           <h3 style={subHeadingStyle} ref={addToRefs} className="reveal">
             NON-TECHNICAL
           </h3>
+          <div style={eventTitle} ref={addToRefs} className="reveal">
+            MISSION : CAMPUS
+          </div>
+          <div style={contactText} ref={addToRefs} className="reveal">
+            1. Dhinesh R V - +91 97917 96867
+          </div>
+          <div style={contactText} ref={addToRefs} className="reveal">
+            2. Dharani Dharan - +91 99431 90765
+          </div>
+
+          <div style={eventTitle} ref={addToRefs} className="reveal">
+            RANPO'S OBSERVATORY
+          </div>
+          <div style={contactText} ref={addToRefs} className="reveal">
+            1. Dharaneesh - +91 88257 02566
+          </div>
+          <div style={contactText} ref={addToRefs} className="reveal">
+            2. Dravid - +91 93422 75992
+          </div>
 
           <div style={eventTitle} ref={addToRefs} className="reveal">
             KEYS TO FORTUNE
@@ -186,16 +205,6 @@ const Contact = () => {
           </div>
 
           <div style={eventTitle} ref={addToRefs} className="reveal">
-            MISSION : CAMPUS
-          </div>
-          <div style={contactText} ref={addToRefs} className="reveal">
-            1. Dhinesh R V - +91 97917 96867
-          </div>
-          <div style={contactText} ref={addToRefs} className="reveal">
-            2. Dharani Dharan - +91 99431 90765
-          </div>
-
-          <div style={eventTitle} ref={addToRefs} className="reveal">
             RHYTHM RIDDLE
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
@@ -205,15 +214,7 @@ const Contact = () => {
             2. Prathish - +91 98651 93481
           </div>
 
-          <div style={eventTitle} ref={addToRefs} className="reveal">
-            RANPO'S OBSERVATORY
-          </div>
-          <div style={contactText} ref={addToRefs} className="reveal">
-            1. Dharaneesh - +91 88257 02566
-          </div>
-          <div style={contactText} ref={addToRefs} className="reveal">
-            2. Dravid - +91 93422 75992
-          </div>
+          
         </div>
         <br />
 
