@@ -151,14 +151,14 @@ const Contact = () => {
             CODE DEBUG CONSOLE
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
-            1. Kiruthika M - +91 88255 40650
+            1. Arulventhan GM - +91 81228 15659
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
-            2. Arulventhan GM - +91 81228 15659
+            2. Rishikeshwaran - +91 97157 08810
           </div>
 
           <div style={eventTitle} ref={addToRefs} className="reveal">
-            BUG2BOARD
+            LINE FOLLOWER
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
             1. Madhavan - +91 90428 46606
@@ -182,7 +182,7 @@ const Contact = () => {
             1. Sivasuriya - +91 98947 52411
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
-            2. Lathika - +91 81223 37577
+            2. Pradeep - +91 70946 16885
           </div>
 
           <div style={eventTitle} ref={addToRefs} className="reveal">
@@ -192,17 +192,17 @@ const Contact = () => {
             1. Dhinesh R V - +91 97917 96867
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
-            2. Gowsika P - +91 99650 51087
+            2. Dharani Dharan - +91 99431 90765
           </div>
 
           <div style={eventTitle} ref={addToRefs} className="reveal">
             RHYTHM RIDDLE
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
-            1. Gobika - +91 90036 72970
+            1. Rishikeshwaran - +91 97157 08810
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
-            2. Rishikeshwaran - +91 97157 08810
+            2. Prathish - +91 98651 93481
           </div>
 
           <div style={eventTitle} ref={addToRefs} className="reveal">
@@ -212,7 +212,7 @@ const Contact = () => {
             1. Dharaneesh - +91 88257 02566
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
-            2. Kavitha - +91 75980 54957
+            2. Dravid - +91 93422 75992
           </div>
         </div>
         <br />
