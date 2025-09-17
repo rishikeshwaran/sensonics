@@ -89,7 +89,7 @@ format: [
     },
     {
       category: "Technical",
-      title: "LINE FOLLOWER [ ROBO RACE ]",
+      title: "BOT BLITZ [ROBO RACE  ]",
       date: "09/10/2025",
       image: "/CIRCUIT.png",
       registerLink: "https://forms.gle/xZ7a4kmXfQaVzJTg7",
@@ -102,7 +102,7 @@ format: [
   "Judge’s decision will be final and binding."
 ],
 format: [
-  "Race will be conducted on a predefined line track.",
+  "Race will be conducted on a predefined track.",
   "Robots will be tested on speed, accuracy, and stability.",
   "Time taken to complete the track will decide the score.",
   "Deviating from the track may lead to penalties or disqualification.",
@@ -118,7 +118,7 @@ format: [
       title: "MISSION : CAMPUS [ CAMPUS VOYAGE ]",
       date: "09/10/2025",
       image: "/MISSION CAMPUS.png",
-      registerLink: "https://forms.gle/ZKKAZAqGr6XvkWQ17",
+      registerLink: "https://forms.gle/gV8XBebbLsrZvLic8",
       contactLink: "/contact",
       instructions: [
   "Teams of 2–3 members can participate.",
@@ -145,11 +145,12 @@ format: [
       contactLink: "/contact",
       
       instructions: [
-  "Round 1: Observe the image carefully within the time limit and answer the related questions.",
+  "Teams of 2–3 members can participate.",
+  "A video will be shown; questions will follow based on its content.",
+  "Answers must be given within the time limit.",
   "Round 2: Analyze the given crime case file and identify the culprit.",
-  "Extra Task: Complete a fun task to unlock additional clues if required.",
-  "Round 3 (if needed): Play a quick logic game in case of multiple qualifiers.",
-  "Team with the highest overall score will be declared as the winner."
+  "Each correct answer earns points; highest score wins (tie → rapid fire).",
+  "No mobiles or books allowed; follow organizer instructions."
 ],
       format: [
   "Complete tasks within the time limit.",
@@ -158,11 +159,10 @@ format: [
   "Scoring based on accuracy and speed.",
   "Judge’s decision will be final."
 ]
-
     },
 {
       category: "Non-Technical",
-      title: "KEYS TO FORTUNE [ TRESURE TIME ]",
+      title: "KEYS TO FORTUNE [ TREASURE TIME ]",
       date: "09/10/2025",
       image: "/KEYS TO FORTUNE.png",
       registerLink: "https://forms.gle/3FcfBzdLLQij2fmSA",
@@ -176,10 +176,8 @@ format: [
 ],
 format: [
   "Preliminary round will be conducted in pen & paper mode.",
-  "Preliminary round includes easy to moderate MCQ questions.",
-  "Only shortlisted teams will qualify for the main round.",
   "Main round will be an interactive challenge with details revealed on the spot.",
-  "Jury’s decision will be final; winners announced at the end and certificates given to all participants."
+  "Jury’s decision will be final; ."
 ]
 
     },
@@ -198,8 +196,8 @@ format: [
   "Judge’s decision will be final and binding."
 ],
 format: [
-  "Round 1: Identify the movie details from movie scenes.",
-  "Round 2: Fill in the missing lyrics when displayed/played.",
+  "Round 1: Identify the song under different circumstances.",
+  "Round 2: Find in the missing lyrics when displayed/played.",
   "Top teams from Round 1 qualify for Round 2.",
   "Points awarded for each correct answer.",
   "Team with highest score will be the winner."

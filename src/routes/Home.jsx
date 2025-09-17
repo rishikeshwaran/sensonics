@@ -85,13 +85,13 @@ const Home = () => {
     { img: tech1, title: "PAPERLOGUE", subtitle: "[PAPER PRESENTATION]", link: "/events" },
     { img: tech2, title: "CREATION UNLEASHED", subtitle: "[PROJECT PRESENTATION]", link: "/events" },
     { img: tech3, title: "CODE DEBUG CONSOLE", subtitle: "[PROGRAMMING CHALLENGE]", link: "/events" },
-    { img: tech4, title: "LINE FOLLOWER", subtitle: "[ROBO RACE]", link: "/events" },
+    { img: tech4, title: "BOT BLITZ", subtitle: "[ROBO RACE]", link: "/events" },
   ];
 
   const nonTechEvents = [
     { img: nonTech2, title: "MISSION : CAMPUS", subtitle: "[CAMPUS VOYAGE]", link: "/events" },
     { img: nonTech4, title: "RANPO'S OBSERVATORY", subtitle: "[SHERLOCK SENSE]", link: "/events" },
-    { img: nonTech1, title: "KEYS TO FORTUNE", subtitle: "[TRESURE TIME]", link: "/events" },
+    { img: nonTech1, title: "KEYS TO FORTUNE", subtitle: "[TREASURE TIME]", link: "/events" },
     { img: nonTech3, title: "RHYTHM RIDDLE", subtitle: "[MELODIA]", link: "/events" },
     
   ];

@@ -90,13 +90,13 @@ export default function Schedule() {
           <div style={eventStyle}>CODE DEBUG CONSOLE: Programming Challenge</div>
 
           <div style={timeStyle}>10:45 AM</div>
-          <div style={eventStyle}>LINE FOLLOWER: Robo Race</div>
+          <div style={eventStyle}>BOT BLITZ: Robo Race</div>
 
           <div style={timeStyle}>12:15 PM - 01:15 PM</div>
           <div style={eventStyle}>LUNCH BREAK</div>
 
           <div style={timeStyle}>01:15 PM</div>
-          <div style={eventStyle}>CAMPUS : MISSION: Campus Voyage</div>
+          <div style={eventStyle}>MISSION : CAMPUS: Campus Voyage</div>
 
           <div style={timeStyle}>02:00 PM</div>
           <div style={eventStyle}>RANPO'S OBSERVATORY: Sherlock Sense</div>
@@ -105,7 +105,7 @@ export default function Schedule() {
           <div style={eventStyle}>RHYTHM RIDDLE: Melodia</div>
 
           <div style={timeStyle}>03:30 PM</div>
-          <div style={eventStyle}>KEYS TO FORTUNE: Tresure Time</div>
+          <div style={eventStyle}>KEYS TO FORTUNE: Treasure Time</div>
 
           <div style={timeStyle}>04:00 PM</div>
           <div style={eventStyle}>VALEDICTORY FUNCTION</div>
