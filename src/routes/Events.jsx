@@ -59,7 +59,7 @@ export default function Events() {
 format: [
   "Each team gets 7 minutes (5 min presentation + 2 min Q/A).",
   "Proof of concept can be shown in photo or video mode.",
-  "Prototype is mandatory for selection.",
+  "Prototype is mandatory on the event day.",
   "Certificates will be given to all participants.",
   "Exciting cash prizes for the winners."
 ]
