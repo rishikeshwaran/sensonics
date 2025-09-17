@@ -15,21 +15,14 @@ const Footer = () => {
 
         <div className="footer-social mt-3">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/sensonics_2k25?igsh=MTBmaXBidHUwaTBrdQ=="
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon instagram"
           >
             <FaInstagram />
           </a>
-          <a
-            href="https://youtube.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon youtube"
-          >
-            <FaYoutube />
-          </a>
+
         </div>
       </div>
     </footer>
