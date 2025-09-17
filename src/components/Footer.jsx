@@ -14,6 +14,7 @@ const Footer = () => {
         <p className="footer-rights">© All rights reserved</p>
 
         <div className="footer-social mt-3">
+          <p className="social-icon instagram"> Follow Us</p>
           <a
             href="https://www.instagram.com/sensonics_2k25?igsh=MTBmaXBidHUwaTBrdQ=="
             target="_blank"
