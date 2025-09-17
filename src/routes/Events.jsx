@@ -167,19 +167,20 @@ format: [
       registerLink: "https://forms.gle/3FcfBzdLLQij2fmSA",
       contactLink: "/contact",
       instructions: [
-        "Team size: 2 members.",
-        "Quiz will be based on IPL history and statistics.",
-        "Mini-games will be app-based.",
-        "One member should register on behalf of the team.",
-        "Snacks will be provided."
-      ],
-      format: [
-        "Round 1: Written cricket quiz.",
-        "Round 2: App-based mini cricket challenges.",
-        "Final round: Rapid-fire cricket trivia.",
-        "Time limit: 30 seconds per question.",
-        "Certificates for all participants."
-      ]
+  "Each team must have 2–3 members.",
+  "Event consists of 2 rounds: preliminary and main round.",
+  "Participants must bring their college ID card.",
+  "Total duration of the event is around 45 minutes.",
+  "Individual payment is mandatory for each participant."
+],
+format: [
+  "Preliminary round will be conducted in pen & paper mode.",
+  "Preliminary round includes easy to moderate MCQ questions.",
+  "Only shortlisted teams will qualify for the main round.",
+  "Main round will be an interactive challenge with details revealed on the spot.",
+  "Jury’s decision will be final; winners announced at the end and certificates given to all participants."
+]
+
     },
     {
       category: "Non-Technical",
