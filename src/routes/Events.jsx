@@ -95,19 +95,20 @@ format: [
       registerLink: "https://forms.gle/xZ7a4kmXfQaVzJTg7",
       contactLink: "/contact",
       instructions: [
-        "Team size: 3-5 members.",
-        "Participants must brainstorm on the given problem statement.",
-        "Only one registration per team.",
-        "Materials for prototyping will be provided.",
-        "Lunch and refreshments included."
-      ],
-      format: [
-        "Round 1: Idea pitch (5 minutes per team).",
-        "Round 2: Rapid prototyping (90 minutes).",
-        "Round 3: Final presentation (7 minutes).",
-        "Judging criteria: Creativity, impact & feasibility.",
-        "Certificates for participants and winners."
-      ]
+  "Each team can have 2–3 members.",
+  "Robots must strictly follow the given line track.",
+  "Only one robot per team is allowed.",
+  "Participants must bring their own robot, batteries, and required accessories.",
+  "Judge’s decision will be final and binding."
+],
+format: [
+  "Race will be conducted on a predefined line track.",
+  "Robots will be tested on speed, accuracy, and stability.",
+  "Time taken to complete the track will decide the score.",
+  "Deviating from the track may lead to penalties or disqualification.",
+  "Top teams with the fastest completion time will be declared winners."
+]
+
     },
 
     // ------------------- NON-TECHNICAL EVENTS -------------------
