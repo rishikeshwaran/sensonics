@@ -162,7 +162,7 @@ format: [
 {
       category: "Non-Technical",
       title: "KEYS TO FORTUNE [ TRESURE TIME ]",
-      date: "26/10/2024",
+      date: "09/10/2025",
       image: "/KEYS TO FORTUNE.png",
       registerLink: "https://forms.gle/3FcfBzdLLQij2fmSA",
       contactLink: "/contact",
