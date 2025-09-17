@@ -158,7 +158,7 @@ const Contact = () => {
           </div>
 
           <div style={eventTitle} ref={addToRefs} className="reveal">
-            LINE FOLLOWER
+            BOT BLITZ
           </div>
           <div style={contactText} ref={addToRefs} className="reveal">
             1. Madhavan - +91 90428 46606
@@ -214,7 +214,7 @@ const Contact = () => {
             2. Prathish - +91 98651 93481
           </div>
 
-          
+
         </div>
         <br />
 
@@ -267,7 +267,7 @@ const Contact = () => {
           >
             <img
               src="balu.jpg"
-              alt="Ms. M. LIZZY NESA BAGYUM"
+              alt="BALU"
               style={{ width: "100%", height: "auto", borderRadius: "10px" }}
             />
             <div style={contactText}>
@@ -285,7 +285,7 @@ const Contact = () => {
           >
             <img
               src="indhu.jpg"
-              alt="Mr. S. JEGAN"
+              alt="INDHU"
               style={{ width: "100%", height: "auto", borderRadius: "10px" }}
             />
             <div style={contactText}>
@@ -312,7 +312,7 @@ const Contact = () => {
           <strong>Transport:</strong> College bus arranged from Perundurai to
           KEC campus.
           <br />
-          Timing: 7:00 am - 8:45 am
+          Timing: 7:00 am - 8:25 am
         </div>
         <div
           style={{ display: "flex", justifyContent: "center", marginTop: "1rem" }}

@@ -1,16 +1,15 @@
 // src/components/Footer.jsx
 import React from "react";
-import { FaInstagram, FaYoutube } from "react-icons/fa"; // Social media icons
-import "./Footer.css"; // Import CSS for animations and styles
+import { FaInstagram, FaYoutube } from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
-      {/* Dark overlay */}
       <div className="footer-overlay"></div>
 
       <div className="footer-content container text-center">
-        <h3 className="footer-title">RISHIKESHWARAN M</h3>
+        <h3 className="footer-title glow-text">RISHIKESHWARAN M</h3>
         <p className="footer-email">rishikeshwaranmsr3106@gmail.com</p>
         <p className="footer-rights">© All rights reserved</p>
 
