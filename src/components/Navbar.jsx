@@ -40,6 +40,7 @@ export default function Navbar() {
         ></div>
 
         <div className="container position-relative" style={{ zIndex: 1 }}>
+          {/* Brand + Logo */}
           <Link to="/" className="navbar-brand d-flex align-items-center text-white">
             <img
               src="/logo.png"
@@ -58,7 +59,7 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Navbar toggler button (white icon) */}
+          {/* Navbar toggler button */}
           <button
             className="navbar-toggler border-0"
             type="button"
@@ -68,43 +69,46 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
             style={{
-              filter: 'invert(1)', // ✅ makes the toggler icon white
+              filter: 'invert(1)', // makes the toggler icon white
             }}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
+          {/* Navbar Links */}
           <div className="collapse navbar-collapse" id="mainNav">
- <ul className="navbar-nav mx-auto mb-2 mb-lg-0 mt-3">
-  {links.map((l) => (
-    <li key={l.to} className="nav-item">
-      <NavLink
-        to={l.to}
-        className={({ isActive }) =>
-          'nav-link' + (isActive ? ' active' : '')
-        }
-        end
-        style={{ fontSize: '18px', color: 'white' }}
-      >
-        {l.label}
-      </NavLink>
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 mt-3 text-center text-lg-start">
+              {links.map((l) => (
+                <li key={l.to} className="nav-item">
+                  <NavLink
+                    to={l.to}
+                    className={({ isActive }) =>
+                      'nav-link' + (isActive ? ' active' : '')
+                    }
+                    end
+                    style={{
+                      fontSize: '18px',
+                      color: 'white',
+                      margin: '0 8px'
+                    }}
+                  >
+                    {l.label}
+                  </NavLink>
                 </li>
               ))}
 
               {/* ✅ KEC logo after FAQ */}
-             {/* ✅ KEC logo after FAQ (Square) */}
-<li className="nav-item d-flex align-items-center ms-3">
-  <Link to="https://kongu.ac.in" target="_blank" rel="noopener noreferrer">
-    <img
-      src="/kec.png"
-      alt="KEC Logo"
-      width="75"
-      height="75"
-      style={{ objectFit: 'contain' }}
-    />
-  </Link>
-</li>
-
+              <li className="nav-item d-flex align-items-center justify-content-center justify-content-lg-start ms-0 ms-lg-3 mt-3 mt-lg-0">
+                <Link to="https://kongu.ac.in" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="/kec.png"
+                    alt="KEC Logo"
+                    width="75"
+                    height="75"
+                    style={{ objectFit: 'contain' }}
+                  />
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

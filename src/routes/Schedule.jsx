@@ -102,10 +102,10 @@ export default function Schedule() {
           <div style={eventStyle}>RANPO'S OBSERVATORY: Sherlock Sense</div>
 
           <div style={timeStyle}>02:45 PM</div>
-          <div style={eventStyle}>RHYTHM RIDDLE: Melodia</div>
+          <div style={eventStyle}>KEYS TO FORTUNE: Treasure Time</div>
 
           <div style={timeStyle}>03:30 PM</div>
-          <div style={eventStyle}>KEYS TO FORTUNE: Treasure Time</div>
+          <div style={eventStyle}>RHYTHM RIDDLE: Melodia</div>
 
           <div style={timeStyle}>04:00 PM</div>
           <div style={eventStyle}>VALEDICTORY FUNCTION</div>

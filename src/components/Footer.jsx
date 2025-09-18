@@ -9,21 +9,24 @@ const Footer = () => {
       <div className="footer-overlay"></div>
 
       <div className="footer-content container text-center">
+        {/* Title + Contact */}
         <h3 className="footer-title glow-text">RISHIKESHWARAN M</h3>
         <p className="footer-email">rishikeshwaranmsr3106@gmail.com</p>
-        <p className="footer-rights">© All rights reserved</p>
+        <p className="footer-rights">© {new Date().getFullYear()} All rights reserved</p>
 
-        <div className="footer-social mt-3">
-          <p className="social-icon instagram"> Follow Us</p>
-          <a
-            href="https://www.instagram.com/sensonics_2k25?igsh=MTBmaXBidHUwaTBrdQ=="
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon instagram"
-          >
-            <FaInstagram />
-          </a>
-
+        {/* Social Links */}
+        <div className="footer-social">
+          <span className="follow-text">Follow Us</span>
+          <div className="social-links">
+            <a
+              href="https://www.instagram.com/sensonics_2k25?igsh=MTBmaXBidHUwaTBrdQ=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon instagram"
+            >
+              <FaInstagram />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
