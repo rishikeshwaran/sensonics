@@ -10,8 +10,8 @@ const Footer = () => {
 
       <div className="footer-content container text-center">
         {/* Title + Contact */}
-        <h3 className="footer-title glow-text">RISHIKESHWARAN M</h3>
-        <p className="footer-email">rishikeshwaranmsr3106@gmail.com</p>
+        <h3 className="footer-title glow-text">Created By - RISHIKESHWARAN(MSR)</h3>
+        <p className="footer-email">sensonics2k25@gmail.com</p>
         <p className="footer-rights">© {new Date().getFullYear()} All rights reserved</p>
 
         {/* Social Links */}
