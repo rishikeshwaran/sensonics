@@ -95,18 +95,27 @@ format: [
       registerLink: "https://forms.gle/xZ7a4kmXfQaVzJTg7",
       contactLink: "/contact",
       instructions: [
-  "Each team can have 2–3 members.",
-  "Robots must strictly follow the given line track.",
-  "Only one robot per team is allowed.",
-  "Participants must bring their own robot, batteries, and required accessories.",
-  "Judge’s decision will be final and binding."
+"Each team can have a maximum of 4 members.",
+"All participants must present a valid institutional ID card for verification.",
+"Only one autonomous bot per team is permitted.",
+"The robot may be wired or wireless but must be electrically powered only (IC engines are not allowed).",
+"Permitted batteries include NiCad, dry cell, lithium, or gel cell types, and they must be sealed and immobilized.",
+"Only 2 members from the team are allowed in the arena at a time (switching is allowed between rounds).",
+"Robots must not damage the arena; penalties will apply if they do.",
+"Robots cannot have a test run in the arena before the actual race.",
+"If a robot starts before the official call, a restart will be given once; repeating will lead to disqualification.",
+"Teams may touch/reset their robot up to 3 times during the run at the same position, but penalties will be applied.",
+"Jury’s decision will be final and binding."
 ],
+
 format: [
-  "Race will be conducted on a predefined track.",
-  "Robots will be tested on speed, accuracy, and stability.",
-  "Time taken to complete the track will decide the score.",
-  "Deviating from the track may lead to penalties or disqualification.",
-  "Top teams with the fastest completion time will be declared winners."
+"The competition will have 2 rounds – Qualifier and Final.",
+"The track will feature uneven terrains, slippery surfaces, mud, speed breakers, floating bridges, and other obstacles.",
+"Evaluation will be based on time taken to complete the track and the number of checkpoints cleared.",
+"Points will be distributed in the form of checkpoints across the track.",
+"Touch penalties and failure to complete sections will affect the final score.",
+"No second chance will be provided for teams completing the track with poor performance.",
+"Top teams with the best timing and stability will be declared winners."
 ]
 
     },
