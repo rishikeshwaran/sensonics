@@ -108,11 +108,11 @@ export default function Gallery() {
         <div style={leftCarousel}>
           <Carousel fade interval={3000}>
             {[
-              { src: "sen1.JPG", caption: "Inauguration" },
-              { src: "sen2.JPG", caption: "Golden Speech" },
-              { src: "sen5.JPG", caption: "NewsLetter" },
-              { src: "sen8.JPG", caption: "Winners" },
-              { src: "sen12.JPG", caption: "Overall Champions" },
+              { src: "sen1.webp", caption: "Inauguration" },
+              { src: "sen2.webp", caption: "Golden Speech" },
+              { src: "sen5.webp", caption: "NewsLetter" },
+              { src: "sen8.webp", caption: "Winners" },
+              { src: "sen12.webp", caption: "Overall Champions" },
             ].map((item, idx) => (
               <Carousel.Item key={idx}>
                 <img
@@ -140,16 +140,16 @@ export default function Gallery() {
       {/* Masonry Grid */}
       <div style={masonryGrid}>
         {[
-          { src: "sen4.JPG", row: 2, col: 2 },
-          { src: "sen2.JPG", row: 1, col: 1 },
-          { src: "sen3.JPG", row: 1, col: 1 },
-          { src: "sen5.JPG", row: 2, col: 2 },
-          { src: "sen6.JPG", row: 1, col: 2 },
-          { src: "sen12.JPG", row: 1, col: 2 },
-          { src: "sen9.JPG", row: 1, col: 1 },
-          { src: "sen8.JPG", row: 2, col: 1 },
-          { src: "sen11.JPG", row: 1, col: 1 },
-          { src: "sen10.JPG", row: 1, col: 2 },
+          { src: "sen4.webp", row: 2, col: 2 },
+          { src: "sen2.webp", row: 1, col: 1 },
+          { src: "sen3.webp", row: 1, col: 1 },
+          { src: "sen5.webp", row: 2, col: 2 },
+          { src: "sen6.webp", row: 1, col: 2 },
+          { src: "sen12.webp", row: 1, col: 2 },
+          { src: "sen9.webp", row: 1, col: 1 },
+          { src: "sen8.webp", row: 2, col: 1 },
+          { src: "sen11.webp", row: 1, col: 1 },
+          { src: "sen10.webp", row: 1, col: 2 },
         ].map((img, idx) => (
           <img
             key={idx}
