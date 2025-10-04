@@ -41,13 +41,6 @@ const Home = () => {
         const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        setZoom({
-          days: days !== parseInt(timeLeft.days),
-          hours: hours !== parseInt(timeLeft.hours),
-          minutes: minutes !== parseInt(timeLeft.minutes),
-          seconds: seconds !== parseInt(timeLeft.seconds),
-        });
-
         setTimeLeft({ days, hours, minutes, seconds });
         setTimeout(() => setZoom({ days: false, hours: false, minutes: false, seconds: false }), 300);
       }
@@ -138,7 +131,15 @@ const Home = () => {
           <img src={eventPoster} alt="Sensonics Poster" className="img-fluid" />
         </div>
       </section>
+<div className="text-center mt-3">
+          <button
+  className="btn-register"
+  onClick={() => window.open("https://forms.gle/ectKaLVRcUKStdqk9", "_blank")}
+>
+  Accomodation Form
+</button>
 
+        </div>
       {/* Payment Rules */}
       <div className="text-center mt-3">
           <button className="btn-register" onClick={() => navigate("/schedule")}>📅 View Event Schedule</button>

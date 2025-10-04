@@ -10,6 +10,7 @@ const Footer = () => {
 
       <div className="footer-content container text-center">
         {/* Title + Contact */}
+        <h3 className="footer-title glow-text">Department of E.I.E</h3>
         <h3 className="footer-title glow-text">Created By - RISHIKESHWARAN(MSR)</h3>
         <p className="footer-email">sensonics2k25@gmail.com</p>
         <p className="footer-rights">© {new Date().getFullYear()} All rights reserved</p>

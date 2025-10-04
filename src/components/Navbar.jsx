@@ -8,8 +8,9 @@ const links = [
   { to: '/schedule', label: 'Schedule' },
   { to: '/gallery', label: 'Gallery' },
   { to: '/contact', label: 'Contact' },
-  { to: '/faq', label: 'FAQ' }
-]
+  { to: '/faq', label: 'FAQ' },
+  { to: 'https://forms.gle/ectKaLVRcUKStdqk9', label: 'Accommodation', external: true }
+];
 
 export default function Navbar() {
   return (
@@ -98,17 +99,7 @@ export default function Navbar() {
               ))}
 
               {/* ✅ KEC logo after FAQ */}
-              <li className="nav-item d-flex align-items-center justify-content-center justify-content-lg-start ms-0 ms-lg-3 mt-3 mt-lg-0">
-                <Link to="https://kongu.ac.in" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="/kec.png"
-                    alt="KEC Logo"
-                    width="75"
-                    height="75"
-                    style={{ objectFit: 'contain' }}
-                  />
-                </Link>
-              </li>
+              
             </ul>
           </div>
         </div>
