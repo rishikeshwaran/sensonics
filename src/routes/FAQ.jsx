@@ -159,9 +159,6 @@ const headStyle = {
             <Accordion.Header><span style={questionStyle}>Q11. Will other college participants be provided with accommodation?</span></Accordion.Header>
             <Accordion.Body style={answerStyle}>
               Hostel accommodation will be provided for participants from other colleges.
-              Accommodation is available for participants inside the campus at a nominal cost of ₹350 per head.  
-Any Queries contact:
-Dharaneesh - +91 8825702566.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="11">
