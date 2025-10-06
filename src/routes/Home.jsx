@@ -131,7 +131,9 @@ const Home = () => {
           <img src={eventPoster} alt="Sensonics Poster" className="img-fluid" />
         </div>
       </section>
-
+ <div className="text-center mt-3">
+          <button className="btn-register" onClick={() => navigate("https://forms.gle/YTQ1dDf1fAH1x2yH6")}>Accommodation Form</button>
+        </div>
       {/* Payment Rules */}
       <div className="text-center mt-3">
           <button className="btn-register" onClick={() => navigate("/schedule")}>📅 View Event Schedule</button>
