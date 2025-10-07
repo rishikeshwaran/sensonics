@@ -124,7 +124,7 @@ const Home = () => {
           <br />
           Highest participation from the same college will score an amazing award!
         </h3>
-        <h2 className="text-title">REGISTRATION OPENED!</h2>
+        <h2 className="text-title">REGISTRATION CLOSED!!</h2>
         <h3 className="text-title">NO ON SPOT REGISTRATION</h3>
         <button className="btn-register mt-3" onClick={() => navigate("/events")}>🚀 Register Now</button>
         <div className="mt-4">
