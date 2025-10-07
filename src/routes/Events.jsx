@@ -393,7 +393,7 @@ format: [
       e.currentTarget.style.color = "#fff";
     }}
   >
-    Registeration Closed
+    Register Now
   </a>
 
   <Link
