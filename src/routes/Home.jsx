@@ -126,7 +126,7 @@ const Home = () => {
         </h3>
         <h2 className="text-title">REGISTRATION CLOSED!!</h2>
         <h3 className="text-title">NO ON SPOT REGISTRATION</h3>
-        <button className="btn-register mt-3" onClick={() => navigate("/events")}>🚀 Register Now</button>
+        <button className="btn-register mt-3" onClick={() => navigate("/events")}>🚀 Registeration Closed</button>
         <div className="mt-4">
           <img src={eventPoster} alt="Sensonics Poster" className="img-fluid" />
         </div>
